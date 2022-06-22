@@ -1,0 +1,164 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["xin chao", "chao ban", "toi co cau hoi","Hey","Hola", "Hello"],
+         "responses": ["chao ban,Toi la ChatBot,Toi co the giup gi cho ban"],
+         "context": [""]
+          },
+          {"tag": "greeting",
+         "patterns": ["toi muon hoi vai dieu","toi muon tu van ve suc khoe","toi có thac mac ve suc khoe","toi can tu van ve suc khoe","co the tu van cho toi duoc khong"],
+         "responses": ["Toi rat san long, ban co the noi cho toi cac trieu chung cua ban"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "tam biet", "Goodbye", "hen gap lai", "hen gạp lai tai benh vien","toi se den benh vien cua ban","hen gap ban vao lan som nhat"],
+         "responses": ["cam on ban da su dung ung dung, hen gap lai"],
+         "context": [""]
+        },
+        {"tag": "khai niem",
+         "patterns": ["Toi thay khong khoe trong nguoi ","toi muon hoi ve cac loai benh","toi co dau hieu met moi trong nguoi","cho toi hoi ve van de suc khoe","toi bi","toi co cac dau hieu","toi thay met moi","hinh nhu toi bi benh","toi cam thay khong khoe","toi cam thay met moi"],
+         "responses": ["Ban dung lo lang, Toi se tu van cho ban, Ban co nhung dau hieu nao "],
+         "context": [""]
+        },
+        {"tag": "Tieu hoa ",
+         "patterns": [ "toi bi day hoi","toi bi dau bung","toi bi buon non","toi co dau hieu phan co mau","toi co dau hieu nuoc tieu vang","toi bi tieu chay","toi bi o hoi","toi bi tao bon","bung toi kho chiu","bung toi bi yeu"],
+         "responses": ["Ban dang co trieu chung ve nhiem trung tieu hoa"],
+         "context": [""]
+          },
+        {"tag": "Benh tieu hoa ",
+         "patterns": [ "cho tôi biet cac loai benh trong nhom benh tieu hoa duoc khong","cac loai benh khi nhiem trung tieu hoa la gi","nhiem trung tieu hoa co nhung loai benh nao","cac loai benh tieu hoa la gi","nhung loai benh ve tieu hoa la gi"],
+         "responses": ["Co cac loai benh Tieu Hoa nhu: Ta, Thuong Han, Tieu Chay, Viem Da Day, Ngo doc thuc an ..."],
+         "context": [""]
+           },
+          {"tag": "Benh tieu hoa  1",
+         "patterns": [ "Benh tieu chay co nhung trieu chung nao","hinh nhu toi bi tieu chay","Trieu chung cua benh tieu chay la gi","dau hieu ban dau cua benh tieu chay la gi","bi benh tieu chay co nhung trieu chung gi"],
+         "responses": ["Cac dau hieu cho thay ban bi Tieu Chay la: chong mat, day hoi, dau bung, buon non, sot, phan co mau, met moi..."],
+         "context": [""]
+        },
+        {"tag": "Sieu vi",
+         "patterns": ["toi bi sot cao","toi bi dau dau nghiem trong","toi bi dau phia sau mat","toi bi buon non va oi mua","toi bi phat ban","toi cam giac met moi","co the nang","toi bi dau nhuc co bap"],
+         "responses": ["Ban dang co trieu chung cac benh nhiem sieu vi"],
+         "context": [""]
+          },
+          {"tag": "Benh sieu vi",
+         "patterns": ["cho tôi biet cac loai benh trong nhom benh sieu vi duoc khong","cac loai benh sieu vi la gi","benh sieu vi co nhung loai benh nao","cac loai benh sieu vi la gi","nhung loai benh ve sieu vi la gi"],
+         "responses": ["Co cac loai benh Sieu Vi nhu: Sot xuat huyet, Quai bi, Benh Zona,Sot Sieu Vi.."],
+         "context": [""]
+            },
+          {"tag": "Benh sieu vi 1",
+         "patterns": [ "Benh sot xuat huyet co nhung trieu chung nao","hinh nhu toi bi sot xuat huyet","Trieu chung cua benh sot xuat huyet la gi","dau hieu ban dau cua benh sot xuat huyet la gi","bi benh sot xuat huyet co nhung trieu chung gi","hinh nhu toi co dau hieu benh sot xuat huyet"],
+         "responses": ["Cac dau hieu cho thay ban bi Sot Xuat Huyet la: dau dau nghiem trong, sot cao co the den 40 do, phat ban, buon non va oi mua"],
+         "context": [""]
+        },
+        {"tag": "than kinh",
+         "patterns": ["toi bi nhay cam voi anh sang","toi bi nhay cam voi tieng on","toi thay ue oai","toi thuong xuyen ngap","cam xuc thay doi bat thuong","thay doi tinh cach","tri nho anh huong","toi tri nho kem va giam sut" ],
+         "responses": ["Ban dang co trieu chung ve cac benh lien quan den than kinh"],
+         "context": [""]
+          },
+        {"tag": "Benh than kinh",
+         "patterns": ["cho tôi biet cac loai benh trong nhom benh Than Kinh duoc khong","cac loai benh ve nhom Than Kinh la gi","benh Than Kinh co nhung loai benh nao","cac loai benh Than Kinh la gi","nhung loai benh ve Than Kinh la gi"],
+         "responses": ["Co cac loai benh ve Than Kinh nhu: Nhuc nua dau, Thieu mau len nao, Benh Pảkinson, Roi loan tien dinh, Dot quy..."],
+         "context": [""]
+           },
+        {"tag": "Benh than kinh 1",
+         "patterns": [ "Benh Thieu Mau Len Nao co nhung trieu chung nao","hinh nhu toi bi Thieu Mau Len Nao","Trieu chung cua benh Thieu Mau Len Nao la gi","dau hieu ban dau cua benh Thieu Mau Len Nao la gi","bi benh Thieu Mau Len Nao co nhung trieu chung gi","hinh nhu toi co dau hieu benh Thieu Mau Len Nao"],
+         "responses": ["Cac dau hieu cho thay ban bi Thieu Mau Len Nao la: dau dau, hoa mat chong mat, chan tay te moi, suy giam thuy luc, mat ngu.."],
+         "context": [""]
+        },
+        {"tag": "Mat",
+         "patterns": ["toi co dau hieu ket mac mat do","toi bi ngua ngay mat","toi bi phu mi","toi co cam giac choi mat"," toi bi giam thi luc","tham nhiem giac mac","toi bi dau mat","vang mat","mat toi bi do","thi luc bi kem"],
+         "responses": ["Ban dang co cac trieu chung ve Mat"],
+         "context": [""]
+          },
+        {"tag": "Benh Mat",
+         "patterns": ["cho tôi biet cac loai benh trong nhom benh Mat","cac loai benh ve nhom Mat la gi","benh Mat co nhung loai benh nao","cac loai benh Mat la gi","nhung loai benh ve Mat la gi"],
+         "responses": ["Co cac loai benh ve Mat nhu:Leo, Viem ket mac, Viem giac mac, Duc thuy tinh the, Thoai hoa diem vang, Di ung mat,..."],
+         "context": [""]
+           },
+        {"tag": "Benh Mat 1",
+         "patterns": [ "Benh Duc Thuy Tinh co nhung trieu chung nao","hinh nhu toi bi Duc Thuy Tinh The","Trieu chung cua benh Duc Thuy Tinh The la gi","dau hieu ban dau cua benh Duc Thuy Tinh The la gi","bi benh Duc Thuy Tinh The co nhung trieu chung gi","hinh nhu toi co dau hieu benh Duc Thuy Tinh The"],
+         "responses": ["Cac dau hieu cho thay ban bi Duc Thuy Tinh The la:nhin mo, xuat hien cham nho hoac vet den truoc tam nhin, viec doc kho khan, giam thi luc, tam nhin han che,..."],
+         "context": [""]
+        },
+        {"tag": "Tai",
+         "patterns": ["toi bi dau tai nhe","tai toi ri dich","toi bi ngua tai","co mun nhot","mu trong tai","toi bi u tai","toi bi lang tai","toi nghe khong ro"],
+         "responses": ["Ban dang co trieu chun van de ve Tai"],
+         "context": [""]
+          },
+        {"tag": "Benh Tai",
+         "patterns": ["cho tôi biet cac loai benh trong nhom benh ve Tai","cac loai benh ve nhom ve Tai la gi","benh ve Tai co nhung loai benh nao","cac loai benh ve Tai la gi","nhung loai benh ve Tai la gi"],
+         "responses": ["Co cac loai benh ve Tai nhu:Viem tai ngoai, Viem tai giua, roi loai mach mau tai, U day than kinh tai,..."],
+         "context": [""]
+          },
+        {"tag": "Benh Tai 1",
+         "patterns": [ "Benh Viem tai giua co nhung trieu chung nao","hinh nhu toi bi Viem tai giua","Trieu chung cua benh Viem tai giua la gi","dau hieu ban dau cua benh Viem tai giua la gi","bi benh Viem tai giua co nhung trieu chung gi","hinh nhu toi co dau hieu benh Viem tai giua"],
+         "responses": ["Cac dau hieu cho thay ban bi Viem Tai Giua la: dau tai, nhoi va giat giat ơ tai, sung ơ vanh tai, u tai, tai chay dich mu,.. "],
+         "context": [""]
+        },
+        {"tag": "Ho hap",
+         "patterns": ["toi bi nghet mui","toi bi giam khua giac","toi co nuoc mui xanh","nuoc mui toi dac","dich mui chay","toi bi ho","toi bi dau rang ham tren","toi ho co dom","toi tho kho khe","kho tho","tho nhanh","nghet mui"],
+         "responses": ["Ban dang co van de ve duong Ho Hap "],
+         "context": [""]
+          },
+        {"tag": "Benh Ho hap",
+         "patterns": ["cho tôi biet cac loai benh trong nhom benh Ho Hap","cac loai benh ve nhom Ho Hap la gi","benh Ho Hap co nhung loai benh nao","cac loai benh Ho Hap la gi","nhung loai benh ve Ho Hap la gi"],
+         "responses": ["Co cac loai benh ve Ho Hap nhu:Viem xoang, Viem hong cap, Viem amydan, Viem phoi, Viem phe quan,... "],
+         "context": [""]
+          },
+        {"tag": "Benh Ho hap 1",
+         "patterns": [ "Benh Viem xoang co nhung trieu chung nao","hinh nhu toi bi Viem xoang ","Trieu chung cua benh Viem xoang  la gi","dau hieu ban dau cua benh Viem xoang la gi","bi benh Viem xoang co nhung trieu chung gi","hinh nhu toi co dau hieu benh Viem xoang "],
+         "responses": ["Cac dau hieu cho thay ban bi Viem xoang giua la: Nghet mui, Giam khuu giac, co nuo mui, dich chay xuong hong, hoi tho kho khan, sot,..."],
+         "context": [""]
+        },
+        {"tag": "Da",
+         "patterns": ["toi bi","toi co dau hieu","da toi bi kho","da toi bi nuc ne","da toi bi vay nen","toi bi noi me day","toi bi man ngua","toi bi bong rat da","toi bi ngua ngay","da toi ngua ran","toi bi bong","toi bi phong rop da","toi bi nam da","toi bi lang ben"],
+         "responses": ["Ban dang co van de ve Da"],
+         "context": [""]
+          },
+        {"tag": "Benh Da",
+         "patterns": ["cho tôi biet cac loai benh trong nhom benh ve Da","cac loai benh ve nhom Da la gi","benh ve Da co nhung loai benh nao","cac loai benh ve Da la gi","nhung loai benh ve Da la gi"],
+         "responses": ["Co cac loai benh ve Da nhu:U nang long, Viem da di ung, May day, Phat Ban, Benh Cham.."],
+         "context": [""]
+          },
+        {"tag": "Benh Da 1",
+         "patterns": [ "Benh Viem da di ung co nhung trieu chung nao","hinh nhu toi bi Viem da di ung ","Trieu chung cua benh Viem da di ung la gi","dau hieu ban dau cua benh Viem da di ung la gi","bi benh Viem da di ung co nhung trieu chung gi","hinh nhu toi co dau hieu benh Viem da di ung"],
+         "responses": ["Cac dau hieu cho thay ban bi Viem Da Di Ung giua la: Ngua nhieu, mang da mau do, da kho va troc vay, da san, nhay cam va sung len,.."],
+         "context": [""]
+        },
+        {"tag": "Xuong khop ",
+         "patterns": ["toi bi","toi co dau hieu","toi bi dau lung du doi","toi bi dau vung lung duoi","toi thay mat thang bang va di lại kho khan","toi bi yeu ơ tay va chan","toi bi dau vung gay","toi bi te cang tay va ngon ta","cac khop cu toi sung và cung","toi bi dau khop","toi co cac vet do va tim phan ow thit"],
+         "responses": ["Ban dang co van de ve Xuong khop"],
+         "context": [""]
+          },
+        {"tag": "Benh Xuong khop ",
+         "patterns": ["cho tôi biet cac loai benh trong nhom benh ve Xuong Khop","cac loai benh ve nhom Xuong Khop la gi","benh ve Xuong Khop co nhung loai benh nao","cac loai benh ve Xuong Khop la gi","nhung loai benh ve Xuong Khop la gi"],
+         "responses": ["Co cac loai benh ve Xuong khop nhu:Viem khop dang thap, thoai hoa da khop, dau lung,  Dau than kinh toa, Thoat vi dia dem, Benh gout, Loang xuong..."],
+         "context": [""]
+           },
+        {"tag": "Benh Xuong khop 1",
+         "patterns": [ "Benh Thoat vi dia dem co nhung trieu chung nao","hinh nhu toi bi Thoat vi dia dem","Trieu chung cua benh Thoat vi dia dem la gi","dau hieu ban dau cua benh Thoat vi dia dem la gi","bi benh Thoat vi dia dem co nhung trieu chung gi","hinh nhu toi co dau hieu Thoat vi dia dem"],
+         "responses": ["Cac dau hieu cho thay ban bi Viem Da Di Ung giua la: Dau nhuc, Te va ngua ran, con dau lan rong, mat kiem soat co the, con dau gia tang khi hoat dong,..."],
+         "context": [""]
+        },
+        {"tag": "hoi lai ",
+         "patterns": ["Toi muon biet ro hon ve benh","toi mun biet ten benh","benh cua toi la gi","benh cua toi la gi trong nhom benh do","benh chinh xac cua toi la gi","toi co the biet chinh xac loai benh khong"],
+         "responses": ["De biet chinh xac loai benh ma ban mac phai, mong ban den co so cua chung toi kiem tra, de dua ra ket qua chinh xac nhat"],
+         "context": [""]
+          },
+          {"tag": "hoi lai ",
+         "patterns": ["no co nguy hiem khong","no co bi sao khong","cach dieu tri benh do nhu the nao","benh do chua tri sao","benh do co nguy hiem khong","toi lo lang qua"],
+         "responses": ["ban dung qua lo lang, Hay đen voi chung toi de duoc tim ra benh va phuong phap dieu tri hieu qua nhat"],
+         "context": [""]
+
+        },
+        {"tag": "dia chi",
+         "patterns": ["co so ban o dau","dia chi ma benh vien ban o dau","toi den noi nao de kham","toi kham truc tiep o dau","co so nao toi co the den kham"],
+         "responses": ["Ban co the den so 1 Vo Van Ngan, de co the duoc kham truc tiep boi cac bac si"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "cam on",
+         "patterns": ["cam on ban","thong tin rat bo ich","cam on nhieu","cam on vi da tu van"],
+         "responses": ["Rat vui long khi duoc tu van cho ban"],
+         "context": ["search_hospital_by_type"]
+        }
+   ]
+}
